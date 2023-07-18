@@ -7,6 +7,7 @@ async function findPaymentByTicketId(ticketId: number) {
       ticketId,
     },
   });
+
 }
 
 async function createPayment(ticketId: number, params: PaymentParams) {
